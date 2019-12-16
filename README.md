@@ -8,14 +8,14 @@
 
 ```
 require (
-	github.com/xiaosongfu/tencentnlpchat v0.1.0
+	github.com/xiaosongfu/tencentnlpchat v0.1.1
 )
 ```
 
 2. 调用 Chat(...) 方法：
 
 ```
-ansText, err := nlpchat.Chat(appId, appKey, question)
+ansText, err := tencentnlpchat.Chat(appId, appKey, question)
 if err != nil {
     // TODO
 }
