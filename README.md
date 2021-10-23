@@ -1,18 +1,16 @@
-# Tencent NLP Chat
+## 1. Tencent NLP Chat
 
 腾讯闲聊 go client
 
-# 快速开始
+## 2. 使用
 
-1. 添加依赖：
+2.1 添加依赖：
 
 ```
-require (
-	github.com/xiaosongfu/tencentnlpchat v0.1.1
-)
+$ go get github.com/xiaosongfu/tencentnlpchat v0.1.1
 ```
 
-2. 调用 Chat(...) 方法：
+2.2 调用 `Chat(...)` 方法：
 
 ```
 ansText, err := tencentnlpchat.Chat(appId, appKey, question)
